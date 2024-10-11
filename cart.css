@@ -1,0 +1,71 @@
+/* Cart table */
+.container-co {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* เพิ่มเส้นขอบรอบตาราง */
+}
+
+.cart-table th, 
+.cart-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* เพิ่มเส้นขอบแนวตั้ง */
+    text-align: center;
+}
+
+.cart-table th {
+    background-color: #d31f46;
+    color: white;
+    border-right: 1px solid #ddd; /* เพิ่มเส้นขอบแนวตั้งสำหรับหัวตาราง */
+}
+
+.cart-table td:last-child, 
+.cart-table th:last-child {
+    border-right: none; /* เอาเส้นขอบออกสำหรับคอลัมน์สุดท้าย */
+}
+
+.cart-table td img {
+    max-width: 100px;
+    height: auto;
+}
+.checkout-btn, 
+.checkout-btn:hover,
+.update2-btn, 
+.update2-btn:hover,
+.remove-btn, 
+.remove-btn:hover {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.checkout-btn:hover,
+.update2-btn:hover,
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+

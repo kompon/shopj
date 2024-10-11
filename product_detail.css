@@ -1,0 +1,90 @@
+/* สไตล์สำหรับการแสดงสินค้า */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.product-image {
+    flex: 1 1 40%;
+    max-width: 400px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info {
+    flex: 1 1 50%;
+    max-width: 600px;
+}
+
+.product-info h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left; /* เพิ่มบรรทัดนี้เพื่อให้ชื่อสินค้าอยู่ด้านซ้าย */
+}
+
+.product-description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+    max-width: 100%; /* จำกัดขนาดของกรอบ */
+    word-wrap: break-word; /* ตัดข้อความให้อยู่ในกรอบ */
+    overflow: hidden; /* ซ่อนข้อความส่วนที่ล้น */
+    text-overflow: ellipsis; /* ใส่ ... หากข้อความยาวเกิน */
+}
+
+.product-price {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #b12704;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-form {
+    margin-top: 20px;
+}
+
+.add-to-cart-btn {
+    background-color: #d31f46;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #a01c2a;
+}
+
+      
